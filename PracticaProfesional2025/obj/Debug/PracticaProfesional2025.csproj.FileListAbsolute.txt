@@ -1,0 +1,10 @@
+c:\users\instituto46\documents\visual studio 2010\Projects\PracticaProfesional2025\PracticaProfesional2025\bin\PracticaProfesional2025.dll
+c:\users\instituto46\documents\visual studio 2010\Projects\PracticaProfesional2025\PracticaProfesional2025\bin\PracticaProfesional2025.pdb
+c:\users\instituto46\documents\visual studio 2010\Projects\PracticaProfesional2025\PracticaProfesional2025\obj\Debug\PracticaProfesional2025.dll
+c:\users\instituto46\documents\visual studio 2010\Projects\PracticaProfesional2025\PracticaProfesional2025\obj\Debug\PracticaProfesional2025.pdb
+C:\Users\Instituto46\documents\visual studio 2010\Projects\PracticaProfesional2025\PracticaProfesional2025\obj\Debug\PracticaProfesional2025.csprojResolveAssemblyReference.cache
+J:\PracticaProfesional2025\PracticaProfesional2025\bin\PracticaProfesional2025.dll
+J:\PracticaProfesional2025\PracticaProfesional2025\bin\PracticaProfesional2025.pdb
+J:\PracticaProfesional2025\PracticaProfesional2025\obj\Debug\PracticaProfesional2025.csprojResolveAssemblyReference.cache
+J:\PracticaProfesional2025\PracticaProfesional2025\obj\Debug\PracticaProfesional2025.dll
+J:\PracticaProfesional2025\PracticaProfesional2025\obj\Debug\PracticaProfesional2025.pdb
