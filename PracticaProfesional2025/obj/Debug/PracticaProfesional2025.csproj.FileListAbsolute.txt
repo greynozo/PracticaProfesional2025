@@ -3,3 +3,8 @@ c:\users\instituto46\documents\visual studio 2010\Projects\PracticaProfesional20
 c:\users\instituto46\documents\visual studio 2010\Projects\PracticaProfesional2025\PracticaProfesional2025\obj\Debug\PracticaProfesional2025.dll
 c:\users\instituto46\documents\visual studio 2010\Projects\PracticaProfesional2025\PracticaProfesional2025\obj\Debug\PracticaProfesional2025.pdb
 C:\Users\Instituto46\documents\visual studio 2010\Projects\PracticaProfesional2025\PracticaProfesional2025\obj\Debug\PracticaProfesional2025.csprojResolveAssemblyReference.cache
+C:\Users\kioc0\OneDrive\Documentos\GitHub\PracticaProfesional2025\PracticaProfesional2025\bin\PracticaProfesional2025.dll
+C:\Users\kioc0\OneDrive\Documentos\GitHub\PracticaProfesional2025\PracticaProfesional2025\bin\PracticaProfesional2025.pdb
+C:\Users\kioc0\OneDrive\Documentos\GitHub\PracticaProfesional2025\PracticaProfesional2025\obj\Debug\PracticaProfesional2025.csprojResolveAssemblyReference.cache
+C:\Users\kioc0\OneDrive\Documentos\GitHub\PracticaProfesional2025\PracticaProfesional2025\obj\Debug\PracticaProfesional2025.dll
+C:\Users\kioc0\OneDrive\Documentos\GitHub\PracticaProfesional2025\PracticaProfesional2025\obj\Debug\PracticaProfesional2025.pdb
