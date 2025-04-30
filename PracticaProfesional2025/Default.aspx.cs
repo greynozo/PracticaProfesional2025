@@ -5,11 +5,15 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data.SqlClient;
+using System.Configuration;
+
 
 namespace PracticaProfesional2025
 {
     public partial class Default : System.Web.UI.Page
     {
+        private static string Cadena = ConfigurationManager.ConnectionStrings["CadenaPP2025"].ConnectionString;
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -19,13 +23,18 @@ namespace PracticaProfesional2025
         {
            SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
 
-           builder.DataSource = @"DESKTOP-URR4FQN\SQLEXPRESS";
-           builder.InitialCatalog = "PP2025";
-           builder.IntegratedSecurity = true;
-           builder.PersistSecurityInfo = true;
+            //Servido I46
+           //builder.DataSource = @"DESKTOP-URR4FQN\SQLEXPRESS";
+
+            //Servidor Gonzalo
+           //builder.DataSource = @"BANGHO";
+           //builder.InitialCatalog = "PP2025";
+           //builder.IntegratedSecurity = true;
+           //builder.PersistSecurityInfo = true;
 
 
-            using(SqlConnection conexion = new SqlConnection(builder.ConnectionString))
+            //using(SqlConnection conexion = new SqlConnection(builder.ConnectionString))
+            using (SqlConnection conexion = new SqlConnection(Cadena))
             {
                 string script = "SELECT * FROM USUARIO";
 
@@ -35,14 +44,19 @@ namespace PracticaProfesional2025
 
                 SqlDataReader reader = command.ExecuteReader();
 
+                string id = String.Empty;
+                string usuario = String.Empty;
+
                 if (reader.HasRows)
                 {
                     while (reader.Read())
                     {
-                        string id = reader.GetInt32(0).ToString();
-                        string usuario = reader.GetString(1);
+                        id = reader.GetInt32(0).ToString();
+                        usuario = reader.GetString(1);
                     }
                 }
+
+                lblMensaje.Text = "ID de usuario: " + id.ToString() + " - Usuario: " + usuario.Trim();
 
                 reader.Close();
                 conexion.Close();

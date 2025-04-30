@@ -67,6 +67,7 @@
         </table>
         <asp:Button ID="btnGuardar" CssClass="btn-success" runat="server" 
             Text="Guardar" onclick="btnGuardar_Click" />
+            <asp:Label ID="lblMensaje" runat="server" Text="" ForeColor="Green"> </asp:Label>
     </div>
 
 </asp:Content>
