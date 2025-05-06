@@ -39,6 +39,8 @@ namespace PracticaProfesional2025
                     lblMayor.Text = "ES MENOR, LA EDAD ES " + edad.ToString() + " Y SU NOMBRE ES " + txtNombre.Text;
                     lblMayor.ForeColor = Color.Red;
                 }
+
+
             }
             catch (Exception)
             {

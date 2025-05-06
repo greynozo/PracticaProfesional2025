@@ -13,6 +13,7 @@
     <RootNamespace>PracticaProfesional2025</RootNamespace>
     <AssemblyName>PracticaProfesional2025</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -64,7 +65,9 @@
     <Content Include="Default.aspx" />
     <Content Include="Inicio.aspx" />
     <Content Include="Prueba.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
