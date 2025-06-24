@@ -130,7 +130,6 @@ namespace PracticaProfesional2025
                 else
                     //El usuario no existe. Se puede crear
                     return false;
-
             }
         }
 
