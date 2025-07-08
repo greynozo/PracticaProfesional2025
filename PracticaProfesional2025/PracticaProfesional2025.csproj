@@ -76,6 +76,7 @@
     <Content Include="Contenido\Login\js\main.js" />
     <Content Include="Contenido\Login\js\popper.js" />
     <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
     <Content Include="Inicio.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Prueba.aspx" />
@@ -96,6 +97,9 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Inicio.aspx.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>

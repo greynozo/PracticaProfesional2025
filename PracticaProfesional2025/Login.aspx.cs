@@ -15,7 +15,7 @@ namespace PracticaProfesional2025
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         protected void btnLogin_Click(object sender, EventArgs e)
@@ -45,8 +45,11 @@ namespace PracticaProfesional2025
                 conexion.Close();
 
                 if (id != String.Empty)
+                {
                     //Redirigir al formulario principal
-                    Response.Redirect("Default.aspx");
+                    Session["Usuario"] = id;
+                    Response.Redirect("Default.aspx?val=1&tipo=A");
+                }
                 else
                     //Usuario y/o contraseña incorrectos
                     lblMensaje.Text = "Usuario y/o contraseña incorrectos";

@@ -16,7 +16,17 @@ namespace PracticaProfesional2025
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            string idSession = Session["Usuario"].ToString();
+            string val = string.Empty;
+            string t = string.Empty;
 
+            if (idSession == String.Empty)
+                Response.Redirect("Login.aspx");
+            else
+            {
+                val = Request.QueryString["val"];
+                t = Request.QueryString["tipo"];
+            }
         }
 
         protected void btnGuardar_Click(object sender, EventArgs e)
