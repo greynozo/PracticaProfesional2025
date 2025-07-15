@@ -37,8 +37,8 @@
 							<form action="#" class="signin-form" runat="server">
 			      		<div class="form-group mt-3">
 			      			<%--<input type="text" class="form-control" required>--%>
-                            <asp:textbox id="txtUsuario" class="form-control" runat="server" />  
-			      			<label class="form-control-placeholder" for="username">Username</label>
+                            <asp:textbox id="txtUsuario" class="form-control" runat="server" /> 
+                            <label class="form-control-placeholder" for="username">Username</label>
 			      		</div>
 		            <div class="form-group">
 		              <%--<input id="password-field" type="password" class="form-control" required>--%>

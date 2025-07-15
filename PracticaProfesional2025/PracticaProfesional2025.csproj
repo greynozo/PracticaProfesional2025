@@ -80,6 +80,7 @@
     <Content Include="Inicio.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Prueba.aspx" />
+    <Content Include="Vista.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -129,6 +130,13 @@
     </Compile>
     <Compile Include="Prueba.aspx.designer.cs">
       <DependentUpon>Prueba.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista.aspx.cs">
+      <DependentUpon>Vista.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vista.aspx.designer.cs">
+      <DependentUpon>Vista.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
