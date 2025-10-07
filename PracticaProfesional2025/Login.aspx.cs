@@ -6,6 +6,8 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data.SqlClient;
 using System.Configuration;
+using System.Security;
+using Hash;
 
 namespace PracticaProfesional2025
 {
@@ -15,7 +17,11 @@ namespace PracticaProfesional2025
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+            string pass = ClaseHash.PasswordSecurity.ObtenerHashPassword("Gonzalo");
+            //$2a$11$0yAEZ/H4V8ejGpEqnpe5V.2L8MkkWOscwoBO4PhRlEc1fxh8H/v.q
+            //$2a$11$Xk7putHxGNIosNwUuW81iemVvjKtz6L2OvNd0s4y6apRLfV62BVYG
+
+            bool resp = ClaseHash.PasswordSecurity.VerificarPassword("Gonzalo", "$2a$11$Xk7putHxGNIosNwUuW81iemVvjKtz6L2OvNd0s4y6apRLfV62BVYG");
         }
 
         protected void btnLogin_Click(object sender, EventArgs e)

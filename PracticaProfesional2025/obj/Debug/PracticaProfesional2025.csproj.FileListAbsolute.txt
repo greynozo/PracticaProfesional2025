@@ -13,3 +13,10 @@ D:\PracticaProfesional2025\PracticaProfesional2025\bin\PracticaProfesional2025.p
 D:\PracticaProfesional2025\PracticaProfesional2025\obj\Debug\PracticaProfesional2025.csprojResolveAssemblyReference.cache
 D:\PracticaProfesional2025\PracticaProfesional2025\obj\Debug\PracticaProfesional2025.dll
 D:\PracticaProfesional2025\PracticaProfesional2025\obj\Debug\PracticaProfesional2025.pdb
+C:\Users\greynozo\Documents\GitHub\PracticaProfesional2025\PracticaProfesional2025\obj\Debug\PracticaProfesional2025.csprojResolveAssemblyReference.cache
+C:\Users\greynozo\Documents\GitHub\PracticaProfesional2025\PracticaProfesional2025\obj\Debug\PracticaProfesional2025.dll
+C:\Users\greynozo\Documents\GitHub\PracticaProfesional2025\PracticaProfesional2025\obj\Debug\PracticaProfesional2025.pdb
+C:\Users\greynozo\Documents\GitHub\PracticaProfesional2025\PracticaProfesional2025\bin\PracticaProfesional2025.dll
+C:\Users\greynozo\Documents\GitHub\PracticaProfesional2025\PracticaProfesional2025\bin\PracticaProfesional2025.pdb
+C:\Users\greynozo\Documents\GitHub\PracticaProfesional2025\PracticaProfesional2025\bin\Hash.dll
+C:\Users\greynozo\Documents\GitHub\PracticaProfesional2025\PracticaProfesional2025\bin\BCrypt.Net-Next.dll
